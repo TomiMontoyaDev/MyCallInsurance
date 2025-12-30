@@ -1,0 +1,121 @@
+{
+  "home": "Home",
+  "value": "Our Value",
+  "team": "Team",
+  "principles": "Principles",
+  "contact": "Contact Us",
+
+  "ctaTitle": "Ready to secure your future?",
+  "ctaButton": "Talk to an advisor",
+  "benefits": {
+    "title": "Our Benefits",
+    "items": [
+      {
+        "title": "Real Empathy",
+        "text": "We listen, understand your situation, and support you every step of the way."
+      },
+      {
+        "title": "Trust & Transparency",
+        "text": "Clear and honest information from the very beginning, with no surprises."
+      },
+      {
+        "title": "Always with You",
+        "text": "Direct and human attention when you need it most, without complications."
+      }
+    ]
+  },
+  "contactsection": {
+    "title": "Contact Us!",
+    "subtitle": "Our team is ready to assist you with whatever you need.",
+    "imageAlt": "MCI Team",
+    "phone": "(407) 401-9872",
+    "address": "5401 S Kirkman Rd Suite 310, Orlando FL",
+    "email": "info@mycallinsurance.com",
+    "location": "Orlando, Florida — USA",
+    "formTitle": "Shall we talk? 👇",
+    "name": "First Name",
+    "lastname": "Last Name",
+    "emailInput": "Email",
+    "phoneInput": "Phone",
+    "message": "Message...",
+    "sendButton": "Send message"
+  },
+  "cta": {
+    "title": "Ready to secure your future?",
+    "description": "Take the first step and get a personalized consultation.",
+    "button": "Talk to an advisor",
+    "scrollTop": "Back to top"
+  },
+  "partners": {
+    "title": "Companies that trust us",
+    "altText": "Partner company"
+  },
+  "hero": {
+    "title": {
+      "before": "Insurance can be complicated,",
+      "highlight": "we make it simple"
+    },
+    "description": "We guide you step by step to find the health and Medicare coverage that truly fits your life — without stress or confusion.",
+    "subDescription": "Honest guidance, human support, and clear options. Your well-being is our priority.",
+    "btnFreeQuote": "Free Quote",
+    "btnServices": "Our Services",
+    "imgAlt": "Health insurance"
+  },
+  "mision": {
+    "title": "Our Mission",
+    "desc1": "Providing peace of mind and protection to our clients through reliable and affordable insurance tailored to real needs of every person and family.",
+    "desc2": "Your well-being is our priority — today and always. We guide you every step of the way so you can make informed and confident decisions.",
+    "imgAlt": "Company mission"
+  },
+  "navbar": {
+    "home": "Home",
+    "value": "Our Value",
+    "team": "Team",
+    "principles": "Principles",
+    "contact": "Contact Us"
+  },
+  "reviewsTitle": "What our clients say",
+  "reviewsBtn": "See all reviews on Google →",
+  "reviewsList": [
+    {
+      "name": "Axel Reyes",
+      "text": "I am very happy with them. They attended all my needs and made sure I understood all the benefits. Couldn’t have done it without their help."
+    },
+    {
+      "name": "Sebastián Lorenzo",
+      "text": "Just one phone call and I got insurance, while other places made me go through months of paperwork. 5 stars."
+    },
+    {
+      "name": "Alba Londoño",
+      "text": "My family and I have been with MyCall Insurance for almost 5 years. Excellent customer service. Always attentive. Highly recommended!"
+    },
+    {
+      "name": "Lilian Santiago-Bauza",
+      "text": "I’ve been with My Call Insurance for 4 years. Friendly, helpful, expert service. Thank you for the exceptional work."
+    },
+    {
+      "name": "Sofía González",
+      "text": "Amazing and fast service. Excellent plan for me and my family. Highly recommended for students!"
+    }
+  ],
+  "servicesTitle": "Our Services",
+  "services": [
+    {
+      "title": "Medicare",
+      "text": "We simplify Medicare options, helping you choose the ideal plan for your needs."
+    },
+    {
+      "title": "Health Insurance",
+      "text": "Health Marketplace options can be overwhelming. Let us guide you so you and your family get the coverage you need to stay healthy."
+    },
+    {
+      "title": "Supplemental Plans",
+      "text": "We offer dental and vision insurance options that fit your budget and needs."
+    },
+    {
+      "title": "Life Insurance",
+      "text": "Be prepared for unexpected circumstances that may impact you and your loved ones."
+    }
+  ],
+  "quote": "Get a Quote"
+}

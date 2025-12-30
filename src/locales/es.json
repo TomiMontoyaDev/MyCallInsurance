@@ -1,0 +1,121 @@
+{
+  "home": "Inicio",
+  "value": "Nuestro Valor",
+  "team": "Equipo",
+  "principles": "Principios",
+  "contact": "Contáctanos",
+
+  "ctaTitle": "¿Listo para asegurar tu futuro?",
+  "ctaButton": "Hablar con un asesor",
+  "benefits": {
+    "title": "Nuestros Beneficios",
+    "items": [
+      {
+        "title": "Empatía Real",
+        "text": "Te escuchamos, entendemos tu situación y te acompañamos en cada paso."
+      },
+      {
+        "title": "Confianza y Transparencia",
+        "text": "Información clara y honesta desde el primer momento, sin sorpresas."
+      },
+      {
+        "title": "Contigo Siempre",
+        "text": "Atención directa y humana cuando más la necesitas, sin complicaciones."
+      }
+    ]
+  },
+  "contactsection": {
+    "title": "¡Contáctenos!",
+    "subtitle": "Nuestro equipo está listo para ayudarle con todo lo que necesite.",
+    "imageAlt": "Equipo MCI",
+    "phone": "(407) 401-9872",
+    "address": "5401 S Kirkman Rd Suite 310, Orlando FL",
+    "email": "info@mycallinsurance.com",
+    "location": "Orlando, Florida — USA",
+    "formTitle": "¿Hablamos? 👇",
+    "name": "Nombre",
+    "lastname": "Apellido",
+    "emailInput": "Correo electrónico",
+    "phoneInput": "Teléfono",
+    "message": "Mensaje...",
+    "sendButton": "Enviar mensaje"
+  },
+  "cta": {
+    "title": "¿Listo para asegurar tu futuro?",
+    "description": "Da el primer paso y recibe una asesoría personalizada.",
+    "button": "Hablar con un asesor",
+    "scrollTop": "Volver arriba"
+  },
+  "partners": {
+    "title": "Compañías que confían en nosotros",
+    "altText": "Compañía asociada"
+  },
+  "hero": {
+    "title": {
+      "before": "El seguro puede ser complicado,",
+      "highlight": "nosotros lo hacemos sencillo"
+    },
+    "description": "Te guiamos paso a paso para encontrar la cobertura de salud y Medicare que realmente se adapta a tu vida, sin estrés ni confusión.",
+    "subDescription": "Atención honesta, apoyo humano y opciones claras. Tu bienestar es nuestra prioridad.",
+    "btnFreeQuote": "Consulta Gratis",
+    "btnServices": "Nuestros Servicios",
+    "imgAlt": "Seguro de salud"
+  },
+  "mision": {
+    "title": "Nuestra Misión",
+    "desc1": "Brindar tranquilidad y protección a nuestros clientes mediante seguros confiables, accesibles y diseñados para cubrir las necesidades reales de cada persona y familia.",
+    "desc2": "Nuestra prioridad es tu bienestar, hoy y siempre. Te acompañamos paso a paso para que tomes decisiones informadas y seguras.",
+    "imgAlt": "Misión de la empresa"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "value": "Nuestro Valor",
+    "team": "Equipo",
+    "principles": "Principios",
+    "contact": "Contáctanos"
+  },
+  "reviewsTitle": "Lo que dicen nuestros clientes",
+  "reviewsBtn": "Ver todas las reviews en Google →",
+  "reviewsList": [
+    {
+      "name": "Axel Reyes",
+      "text": "Estoy muy contento con ellos. Atendieron todas mis necesidades y siempre se aseguraron de que comprendiera todos los beneficios. Sin su ayuda, no podría haberlo hecho."
+    },
+    {
+      "name": "Sebastián Lorenzo",
+      "text": "Me bastó una sola llamada para conseguir un seguro, mientras que otros lugares me han hecho pasar por trámites durante MESES. 5 estrellas."
+    },
+    {
+      "name": "Alba Londoño",
+      "text": "Mi familia y yo llevamos casi 5 años usando MyCall Insurance. Excelente y experto servicio al cliente. Siempre atentos. ¡Los recomiendo ampliamente!"
+    },
+    {
+      "name": "Lilian Santiago-Bauza",
+      "text": "Llevo 4 años con My Call Insurance. Servicio cordial, servicial y experto. Gracias por un servicio excepcional."
+    },
+    {
+      "name": "Sofía González",
+      "text": "Un servicio increíble y rápido. Excelente plan para mí y mi familia. Los recomiendo especialmente a estudiantes."
+    }
+  ],
+  "servicesTitle": "Nuestros Servicios",
+  "services": [
+    {
+      "title": "Medicare",
+      "text": "Simplificamos las opciones de Medicare, guiándote en la elección del plan ideal para tus circunstancias."
+    },
+    {
+      "title": "Seguro Médico",
+      "text": "Las opciones del Mercado de Seguros Médicos pueden ser abrumadoras. Permítanos guiarlo para que usted y su familia tengan la cobertura que necesitan para mantenerse sanos."
+    },
+    {
+      "title": "Planes Complementarios",
+      "text": "Ofrecemos opciones de seguro dental y de la vista que se ajustan a su presupuesto y necesidades."
+    },
+    {
+      "title": "Seguro de Vida",
+      "text": "Esté preparado para circunstancias imprevistas que pueden alterar la vida de usted y sus seres queridos."
+    }
+  ],
+  "quote": "Cotizar"
+}
