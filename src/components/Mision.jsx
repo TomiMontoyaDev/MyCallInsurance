@@ -17,7 +17,7 @@ export default function Mision() {
         className="relative w-full h-[350px] rounded-3xl overflow-hidden shadow-xl"
       >
         <img
-          src="/img/mision.jpg"
+          src="/img/Mision.jpg"
           alt={t("mision.imgAlt")}
           className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
         />
