@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import ESP from "../img/ESP.png";
-import USA from "../img/USA.png";
 
 export default function LanguageSelector() {
   const { i18n } = useTranslation();
@@ -11,8 +9,8 @@ export default function LanguageSelector() {
   const currentLang = i18n.language || "es";
 
   const languages = {
-    es: { label: "Español", img: ESP },
-    en: { label: "English", img: USA },
+    es: { label: "Español", img: "/img/ESP.png" },
+    en: { label: "English", img: "/img/USA.png" },
   };
 
   const changeLanguage = (lang) => {

@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import misionIMG from "../img/mision.jpg";
 
 export default function Mision() {
   const { t } = useTranslation();
@@ -18,7 +17,7 @@ export default function Mision() {
         className="relative w-full h-[350px] rounded-3xl overflow-hidden shadow-xl"
       >
         <img
-          src={misionIMG}
+          src="/img/mision.jpg"
           alt={t("mision.imgAlt")}
           className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
         />

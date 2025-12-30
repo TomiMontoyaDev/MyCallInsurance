@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import hero1 from "../img/hero1.jpg";
 
-const images = [hero1];
+const images = ["/img/hero1.jpg"];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
