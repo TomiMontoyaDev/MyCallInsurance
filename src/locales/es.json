@@ -41,9 +41,6 @@
     "sendButton": "Enviar mensaje"
   },
   "cta": {
-    "title": "¿Listo para asegurar tu futuro?",
-    "description": "Da el primer paso y recibe una asesoría personalizada.",
-    "button": "Hablar con un asesor",
     "scrollTop": "Volver arriba"
   },
   "partners": {
@@ -63,8 +60,8 @@
   },
   "mision": {
     "title": "Nuestra Misión",
-    "desc1": "Brindar tranquilidad y protección a nuestros clientes mediante seguros confiables, accesibles y diseñados para cubrir las necesidades reales de cada persona y familia.",
-    "desc2": "Nuestra prioridad es tu bienestar, hoy y siempre. Te acompañamos paso a paso para que tomes decisiones informadas y seguras.",
+    "desc1": "Brindar tranquilidad y protección a nuestros clientes a través de soluciones de seguros confiables, accesibles y personalizadas, diseñadas para cubrir las necesidades reales de cada persona y familia.",
+    "desc2": "Nos dedicamos a ayudarle a construir un futuro financiero más seguro, protegiendo lo que más le importa y acompañándolo paso a paso para que tome decisiones informadas y con confianza. Nuestra prioridad es su bienestar, hoy y siempre.",
     "imgAlt": "Misión de la empresa"
   },
   "navbar": {
@@ -117,5 +114,72 @@
       "text": "Esté preparado para circunstancias imprevistas que pueden alterar la vida de usted y sus seres queridos."
     }
   ],
-  "quote": "Cotizar"
+  "quote": "Cotizar",
+  "contactphrase": {
+    "teamPhrase": "Nuestro equipo, tu tranquilidad."
+  },
+  "footer": {
+    "desc": "Soluciones de seguros confiables y personalizadas para proteger lo que más importa.",
+    "links": "Enlaces",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "disclaimer": "La información proporcionada en este sitio no constituye asesoramiento legal o financiero.",
+    "designedBy": "Diseñado por",
+    "privacy": "Política de Privacidad"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 2026",
+
+    "intro": "En My Call Insurance, su privacidad es muy importante para nosotros. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos su información cuando utiliza nuestro sitio web y nuestros servicios.",
+
+    "collectTitle": "Información que recopilamos",
+    "collectText": "Podemos recopilar información personal como nombre, número de teléfono, correo electrónico y otros datos proporcionados voluntariamente a través de formularios de contacto o solicitudes de servicios.",
+
+    "useTitle": "Cómo utilizamos su información",
+    "useText": "La información recopilada se utiliza para brindarle servicios personalizados, responder a sus solicitudes, mejorar nuestra atención al cliente y cumplir con requisitos legales.",
+
+    "shareTitle": "Divulgación de información",
+    "shareText": "No vendemos ni compartimos su información personal con terceros, excepto cuando sea necesario para proporcionar nuestros servicios, cumplir con la ley o con su consentimiento previo.",
+
+    "cookiesTitle": "Uso de cookies",
+    "cookiesText": "Nuestro sitio puede utilizar cookies para mejorar la experiencia del usuario, analizar el tráfico y personalizar el contenido. Usted puede desactivar las cookies desde la configuración de su navegador.",
+
+    "securityTitle": "Seguridad de la información",
+    "securityText": "Implementamos medidas de seguridad razonables para proteger su información personal. Sin embargo, ningún sistema es completamente seguro y no podemos garantizar una protección absoluta.",
+
+    "childrenTitle": "Privacidad de menores",
+    "childrenText": "Nuestros servicios están dirigidos únicamente a personas mayores de 18 años. No recopilamos intencionalmente información de menores.",
+
+    "rightsTitle": "Sus derechos",
+    "rightsText": "Usted tiene derecho a acceder, corregir o solicitar la eliminación de su información personal, conforme a las leyes aplicables.",
+
+    "contactTitle": "Contacto",
+    "contactText": "Si tiene preguntas sobre esta Política de Privacidad, puede contactarnos a través de los medios disponibles en este sitio web."
+  },
+  "teamPreview": {
+    "title": "Conoce nuestro equipo de agentes",
+    "desc": "Nuestro equipo está conformado por agentes profesionales y comprometidos, listos para ayudarte a encontrar la mejor protección para ti y tu familia.",
+    "button": "Conoce al equipo",
+    "imgAlt": "Equipo de agentes de My Call Insurance"
+  },
+  "callModal": {
+    "title": "Llámanos para cotizar",
+    "desc": "Uno de nuestros miembros del equipo te atenderá de inmediato.",
+    "close": "Cerrar"
+  },
+
+  "teamSection": {
+    "agentsTitle": "Agentes de Seguros",
+
+    "mary": "Con años de experiencia y un fuerte compromiso con su comunidad, Mary se dedica a ayudar a sus clientes a encontrar la cobertura adecuada con atención y claridad. En My Call Insurance, eres más que una póliza: eres familia.",
+
+    "carlos": "A Carlos le apasiona ayudar a sus clientes a encontrar una cobertura accesible y asequible. Conocido por sus consejos honestos y claros, se compromete a simplificar y eliminar el estrés de los seguros.",
+
+    "lina": "Como la incorporación más reciente a My Call Insurance, Lina continúa el legado de empoderar a la comunidad con una guía de seguros clara, confiable y personalizada.",
+
+    "supportTitle": "Equipo de soporte y servicio",
+
+    "supportDesc": "Nuestro dedicado equipo de soporte está aquí para simplificar su seguro. Ofrecemos orientación clara y comprensiva sobre Medicare, la Ley de Cuidado de Salud Asequible (ACA) y planes comerciales. Considérenos su recurso de confianza para obtener respuestas, información y apoyo continuo."
+  }
 }

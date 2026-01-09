@@ -63,8 +63,8 @@
   },
   "mision": {
     "title": "Our Mission",
-    "desc1": "Providing peace of mind and protection to our clients through reliable and affordable insurance tailored to real needs of every person and family.",
-    "desc2": "Your well-being is our priority — today and always. We guide you every step of the way so you can make informed and confident decisions.",
+    "desc1": "To provide peace of mind and protection to our clients through reliable, affordable, and personalized insurance solutions designed to meet the real needs of every individual and family.",
+    "desc2": "We are dedicated to helping you build a more secure financial future by protecting what matters most and guiding you step by step to make informed and confident decisions. Your well-being is our priority, today and always.",
     "imgAlt": "Company mission"
   },
   "navbar": {
@@ -117,5 +117,72 @@
       "text": "Be prepared for unexpected circumstances that may impact you and your loved ones."
     }
   ],
-  "quote": "Get a Quote"
+  "quote": "Get a Quote",
+  "contactphrase": {
+    "teamPhrase": "Our team, your peace of mind."
+  },
+  "footer": {
+    "desc": "Reliable and personalized insurance solutions to protect what matters most.",
+    "links": "Links",
+    "contact": "Contact",
+    "legal": "Legal",
+    "disclaimer": "The information provided on this website does not constitute legal or financial advice.",
+    "designedBy": "Designed by",
+    "privacy": "Privacy Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 2026",
+
+    "intro": "At My Call Insurance, your privacy is very important to us. This Privacy Policy explains how we collect, use, and protect your information when you use our website and services.",
+
+    "collectTitle": "Information We Collect",
+    "collectText": "We may collect personal information such as your name, phone number, email address, and other details voluntarily provided through contact forms or service requests.",
+
+    "useTitle": "How We Use Your Information",
+    "useText": "The information we collect is used to provide personalized services, respond to inquiries, improve customer support, and comply with legal requirements.",
+
+    "shareTitle": "Information Sharing",
+    "shareText": "We do not sell or share your personal information with third parties except when necessary to provide our services, comply with the law, or with your prior consent.",
+
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Our website may use cookies to enhance user experience, analyze traffic, and personalize content. You can disable cookies through your browser settings.",
+
+    "securityTitle": "Data Security",
+    "securityText": "We implement reasonable security measures to protect your personal information. However, no system is completely secure and absolute protection cannot be guaranteed.",
+
+    "childrenTitle": "Children’s Privacy",
+    "childrenText": "Our services are intended only for individuals 18 years of age or older. We do not knowingly collect information from minors.",
+
+    "rightsTitle": "Your Rights",
+    "rightsText": "You have the right to access, correct, or request deletion of your personal information in accordance with applicable laws.",
+
+    "contactTitle": "Contact Us",
+    "contactText": "If you have any questions about this Privacy Policy, please contact us through the information provided on this website."
+  },
+  "teamPreview": {
+    "title": "Meet our team of agents",
+    "desc": "Our team is made up of professional and dedicated agents, ready to help you find the best protection for you and your family.",
+    "button": "Meet the team",
+    "imgAlt": "My Call Insurance agents team"
+  },
+  "callModal": {
+    "title": "Call us to get your quote",
+    "desc": "One of our team members will assist you right away.",
+    "close": "Close"
+  },
+
+  "teamSection": {
+    "agentsTitle": "Insurance Agents",
+
+    "mary": "With years of experience and a strong commitment to her community, Mary is dedicated to helping her clients find the right coverage with care and clarity. At My Call Insurance, you are more than a policy — you are family.",
+
+    "carlos": "Carlos is passionate about helping his clients find accessible and affordable coverage. Known for his honest and clear advice, he is committed to simplifying and removing the stress from insurance.",
+
+    "lina": "As the newest addition to My Call Insurance, Lina continues the legacy of empowering the community with clear, trustworthy, and personalized insurance guidance.",
+
+    "supportTitle": "Support and Service Team",
+
+    "supportDesc": "Our dedicated support team is here to simplify your insurance. We provide clear and comprehensive guidance on Medicare, the Affordable Care Act (ACA), and commercial plans. Consider us your trusted resource for answers, information, and ongoing support."
+  }
 }

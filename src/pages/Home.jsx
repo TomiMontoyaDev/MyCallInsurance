@@ -7,13 +7,15 @@ import Reviews from "../components/Reviews";
 import CTA from "../components/CTA";
 import Divider from "../components/Divider";
 import ContactSection from "../components/ContactSection";
-
+import TeamPreview from "../components/TeamPreview";
 export default function Home() {
   return (
     <>
       <Hero />
       <Divider />
       <Mision />\
+      <Divider />
+      <TeamPreview />
       <Divider />
       <Servicios />
       <Divider />
@@ -24,7 +26,6 @@ export default function Home() {
       <Reviews />
       <Divider />
       <CTA />
-      <Divider />
       <ContactSection />
     </>
   );

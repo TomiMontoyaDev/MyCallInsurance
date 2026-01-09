@@ -14,10 +14,25 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // 🔥 SCROLL PROFESIONAL AL CONTACTO
+  const scrollToContact = () => {
+    setOpen(false);
+
+    setTimeout(() => {
+      const el = document.getElementById("contacto");
+      if (el) {
+        el.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    }, 100);
+  };
+
   const links = [
     { to: "/", label: t("navbar.home") },
     { to: "/valor", label: t("navbar.value") },
-    { to: "/equipo", label: t("navbar.team") },
+    { to: "/team", label: t("navbar.team") },
     { to: "/principios", label: t("navbar.principles") },
   ];
 
@@ -30,11 +45,11 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 backdrop-blur-md bg-white/90 shadow-lg 
-        transition-all duration-300 ${
-          scrolled ? "py-1 md:py-2" : "py-2 md:py-3"
-        }`}
+      transition-all duration-300 ${
+        scrolled ? "py-1 md:py-2" : "py-2 md:py-3"
+      }`}
     >
-      <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between gap-0">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* LOGO */}
         <Link to="/" className="flex items-center">
           <img
@@ -46,8 +61,8 @@ export default function Navbar() {
           />
         </Link>
 
-        {/* MENU DESKTOP */}
-        <div className="hidden md:flex items-center gap-4 ml-2">
+        {/* DESKTOP MENU */}
+        <div className="hidden md:flex items-center gap-4">
           {links.map((item) => (
             <NavLink
               key={item.to}
@@ -62,13 +77,14 @@ export default function Navbar() {
 
           <LanguageSelector />
 
-          <Link
-            to="/contacto"
+          {/* CONTACT BUTTON */}
+          <button
+            onClick={scrollToContact}
             className="ml-2 bg-[#02699C] text-white px-5 py-2 rounded-full font-bold shadow-md 
               transition-all duration-300 hover:scale-110 hover:-translate-y-1"
           >
             {t("navbar.contact")}
-          </Link>
+          </button>
         </div>
 
         {/* MOBILE MENU BUTTON */}
@@ -79,6 +95,40 @@ export default function Navbar() {
           ☰
         </button>
       </div>
+
+      {/* MOBILE MENU */}
+      {open && (
+        <div className="md:hidden bg-white shadow-lg border-t border-gray-200">
+          <div className="flex flex-col items-center py-6 gap-4">
+            {links.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                onClick={() => setOpen(false)}
+                className={({ isActive }) =>
+                  `px-6 py-3 rounded-full font-semibold ${
+                    isActive
+                      ? "bg-[#02699C] text-white"
+                      : "text-[#02699C] hover:bg-[#02699C]/10"
+                  }`
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
+
+            {/* CONTACT BUTTON MOBILE */}
+            <button
+              onClick={scrollToContact}
+              className="bg-[#02699C] text-white px-8 py-3 rounded-full font-bold shadow-md"
+            >
+              {t("navbar.contact")}
+            </button>
+
+            <LanguageSelector />
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

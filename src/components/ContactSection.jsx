@@ -3,12 +3,13 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaHome } from "react-icons/fa";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { useTranslation } from "react-i18next";
+import Divider from "./Divider";
 
 export default function ContactSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="contacto" className="bg-[#02699C] text-white overflow-hidden">
+    <section id="contacto" className="bg-[#67C4DB] text-white overflow-hidden">
       {/* HEADER */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -23,20 +24,48 @@ export default function ContactSection() {
           {t("contactsection.subtitle")}
         </p>
       </motion.div>
-
+      <Divider />
       <div className="grid md:grid-cols-2">
         {/* IMAGEN */}
         <motion.div
-          initial={{ scale: 1.2 }}
+          initial={{ scale: 1.05 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 1 }}
-          className="w-full h-full"
+          className="
+    relative
+    w-full
+    min-h-[280px]
+  md:min-h-[600px]
+  lg:min-h-[650px]
+  bg-[#228AB5]
+  flex
+  items-center
+  justify-center
+  "
         >
+          {/* Top border filler */}
+          <div className="hidden md:block absolute top-0 left-0 w-full h-24 bg-[#228AB5] z-0" />
+
+          {/* Image */}
           <img
             src="/imgcontact.jpg"
             alt={t("contactsection.imageAlt")}
-            className="w-full h-full object-cover brightness-95"
+            className="
+    relative z-10
+    w-full
+    h-auto
+    md:h-full
+    object-contain
+    brightness-95
+  "
           />
+
+          {/* Bottom border filler */}
+          <div className="hidden md:flex absolute bottom-0 left-0 w-full h-24 bg-[#228AB5] z-0 items-center justify-center">
+            <h2 className="text-white text-2xl font-bold tracking-wide drop-shadow-md">
+              {t("contactphrase.teamPhrase")}
+            </h2>
+          </div>
         </motion.div>
 
         {/* FORM & INFO */}
@@ -46,7 +75,12 @@ export default function ContactSection() {
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="flex flex-col gap-4 text-[#013b5a] font-semibold text-xl leading-relaxed"
+            className="
+              flex flex-col gap-4
+              text-[#013b5a]
+              font-semibold text-xl
+              leading-relaxed
+            "
           >
             <div className="flex items-center gap-3">
               <FaPhoneAlt /> {t("contactsection.phone")}
@@ -67,7 +101,16 @@ export default function ContactSection() {
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="bg-[#ffffff25] backdrop-blur-md p-8 rounded-2xl shadow-xl space-y-4 text-white border border-white/20"
+            className="
+              bg-[#ffffff25]
+              backdrop-blur-md
+              p-8
+              rounded-2xl
+              shadow-xl
+              space-y-4
+              text-white
+              border border-white/20
+            "
           >
             <h3 className="text-2xl font-bold drop-shadow-md mb-3">
               {t("contactsection.formTitle")}
@@ -96,10 +139,18 @@ export default function ContactSection() {
             />
 
             <PhoneInput
-              country={"us"}
-              enableSearch={true}
+              country="us"
+              enableSearch
               placeholder={t("contactsection.phoneInput")}
-              inputClass="!w-full !bg-white/20 !border !border-white/30 !text-white placeholder-white/70 !py-3 !pl-14 !rounded-lg"
+              inputClass="
+                !w-full
+                !bg-white/20
+                !border !border-white/30
+                !text-white
+                placeholder-white/70
+                !py-3 !pl-14
+                !rounded-lg
+              "
               buttonClass="!bg-white/30 !border-none"
               dropdownClass="!text-black"
               containerClass="rounded-lg"
@@ -110,12 +161,21 @@ export default function ContactSection() {
               rows="4"
               placeholder={t("contactsection.message")}
               required
-            ></textarea>
+            />
 
             <motion.button
               whileHover={{ scale: 1.07 }}
               whileTap={{ scale: 0.96 }}
-              className="w-full bg-[#013b5a] hover:bg-[#014d72] font-bold py-3 rounded-lg transition-all shadow-lg"
+              className="
+                w-full
+                bg-[#013b5a]
+                hover:bg-[#014d72]
+                font-bold
+                py-3
+                rounded-lg
+                transition-all
+                shadow-lg
+              "
             >
               {t("contactsection.sendButton")} ✨
             </motion.button>
@@ -123,7 +183,7 @@ export default function ContactSection() {
         </div>
       </div>
 
-      <div className="w-full h-10 bg-gradient-to-b from-[#02699C] to-transparent"></div>
+      <div className="w-full h-10 bg-gradient-to-b from-[#02699C] to-transparent" />
     </section>
   );
 }
