@@ -72,7 +72,8 @@
     "value": "Our Value",
     "team": "Team",
     "principles": "Principles",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "services": "Services"
   },
   "reviewsTitle": "What our clients say",
   "reviewsBtn": "See all reviews on Google →",
@@ -175,14 +176,80 @@
   "teamSection": {
     "agentsTitle": "Insurance Agents",
 
-    "mary": "With years of experience and a strong commitment to her community, Mary is dedicated to helping her clients find the right coverage with care and clarity. At My Call Insurance, you are more than a policy — you are family.",
+    "mary": "With years of experience and a strong commitment to her community, Mary is dedicated to helping clients find the right coverage with care and clarity.",
 
-    "carlos": "Carlos is passionate about helping his clients find accessible and affordable coverage. Known for his honest and clear advice, he is committed to simplifying and removing the stress from insurance.",
+    "carlos": "Carlos is passionate about helping clients find accessible and affordable insurance coverage.",
 
-    "lina": "As the newest addition to My Call Insurance, Lina continues the legacy of empowering the community with clear, trustworthy, and personalized insurance guidance.",
+    "lina": "Lina continues the legacy of empowering the community with clear and reliable insurance guidance.",
 
-    "supportTitle": "Support and Service Team",
+    "maryFull": "With a deep commitment to her community, Mary Bornachera founded My Call Insurance Agency to provide trustworthy, personalized, and heart-driven insurance solutions.\n\nWith nearly fifteen years of experience in the industry, she takes pride in helping individuals, families, and businesses feel secure in their coverage—no matter what life brings. She specializes in Medicare, the Affordable Care Act (ACA), and life insurance.\n\nAt My Call Insurance, Mary believes in honest guidance, strong relationships, and putting your needs first, because protecting what matters most is always just a call away.",
 
-    "supportDesc": "Our dedicated support team is here to simplify your insurance. We provide clear and comprehensive guidance on Medicare, the Affordable Care Act (ACA), and commercial plans. Consider us your trusted resource for answers, information, and ongoing support."
+    "carlosFull": "Carlos Montoya is a dedicated insurance professional with a strong focus on Affordable Care Act (ACA) plans and health coverage solutions.\n\nAs Co-Founder of My Call Insurance Agency, he combines industry expertise with a passion for helping individuals and families find affordable and accessible insurance options. Carlos is known for his honest and straightforward approach, always taking the time to clearly explain coverage so clients can make confident, informed decisions.\n\nHis commitment to trust, transparency, and exceptional service is the foundation of every conversation.",
+
+    "linaFull": "With more than a decade of experience in corporate finance, Lina brings a strategic and personalized approach to My Call Insurance Agency.\n\nShe is dedicated to preserving and growing the family legacy through exceptional service and clear, reliable guidance for all insurance needs. Her passion lies in empowering the community through education, helping clients make informed decisions based on their individual circumstances.\n\nLina is committed to helping clients navigate their insurance needs with confidence while ensuring the continued growth and long-term impact of the agency.",
+
+    "supportTitle": "Support & Service Team",
+
+    "supportDesc": "Our dedicated support team is here to simplify your insurance experience. We provide clear and compassionate guidance on Medicare, the Affordable Care Act (ACA), and commercial plans. Consider us your trusted resource for answers, information, and ongoing support.",
+    "roles": {
+      "founder": "Founder / Licensed Insurance Agent",
+      "cofounder": "Co-Founder / Licensed Insurance Agent",
+      "managingPartner": "Managing Partner / Licensed Insurance Agent",
+      "supportManager": "Support & Service Manager",
+      "supportSpecialist": "Support & Service Specialist"
+    },
+    "ReadsMore": "Read More"
+  },
+
+  "whyAgent": {
+    "title": "Why an agent?",
+    "description": "Working with a licensed insurance agent offers a personalized experience unlike anything you'll find when purchasing insurance on your own. Our agents simplify the process and help you find the best coverage tailored to your needs. Their support saves you time and helps you avoid costly mistakes, ensuring you make sound decisions for your future. Trust our agents to guarantee your peace of mind and that of your loved ones.",
+    "features": {
+      "experience": {
+        "title": "Experienced and attentive agents",
+        "text": "Our team of licensed professionals brings deep industry knowledge and a genuine commitment to serving your best interests. We’re here to guide you with integrity first."
+      },
+      "clarity": {
+        "title": "Clarity and trust",
+        "text": "We believe insurance should empower you, not overwhelm you. We explain your options clearly and honestly, so you can make informed decisions with confidence.."
+      },
+      "service": {
+        "title": "Personalized service",
+        "text": "We work with you to tailor insurance plans that fit your unique needs."
+      },
+      "satisfaction": {
+        "title": "Customer satisfaction",
+        "text": "Our clients are at the heart of everything we do, ensuring you receive exceptional support and service."
+      }
+    },
+    "principles": {
+      "title": "Our Guiding Principles",
+      "items": {
+        "social": {
+          "title": "Social Responsibility",
+          "text": "We believe in giving back to our communities and supporting causes that make a positive impact. We are committed to ethical practices that benefit both our clients and the broader society."
+        },
+        "empathy": {
+          "title": "Empathy",
+          "text": "We listen to our clients' needs with compassion and understanding, recognizing that each person’s financial & health condition is unique. We strive to provide tailored solutions that reflect their values and goals."
+        },
+        "service": {
+          "title": "Commitment to Service",
+          "text": "Our clients are at the heart of everything we do. We are dedicated to offering exceptional service, support, and guidance, always striving to exceed expectations."
+        },
+        "education": {
+          "title": "Education & Empowerment",
+          "text": "We believe in helping our clients make informed decisions about their insurance needs that provide the best coverage for their family needs."
+        },
+        "integrity": {
+          "title": "Integrity",
+          "text": "We uphold the highest standards of honesty and transparency in every interaction. Our clients can trust that we will always act in their best interests."
+        },
+        "collaboration": {
+          "title": "Collaboration & Teamwork",
+          "text": "We believe in the power of collaboration, both within our agency and with our clients. Fostering an inclusive environment, ensuring their needs are met with collective expertise and care."
+        }
+      }
+    }
   }
 }

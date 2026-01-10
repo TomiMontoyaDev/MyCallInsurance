@@ -69,7 +69,8 @@
     "value": "Nuestro Valor",
     "team": "Equipo",
     "principles": "Principios",
-    "contact": "Contáctanos"
+    "contact": "Contáctanos",
+    "services": "Servicios"
   },
   "reviewsTitle": "Lo que dicen nuestros clientes",
   "reviewsBtn": "Ver todas las reviews en Google →",
@@ -172,14 +173,80 @@
   "teamSection": {
     "agentsTitle": "Agentes de Seguros",
 
-    "mary": "Con años de experiencia y un fuerte compromiso con su comunidad, Mary se dedica a ayudar a sus clientes a encontrar la cobertura adecuada con atención y claridad. En My Call Insurance, eres más que una póliza: eres familia.",
+    "mary": "Con años de experiencia y un fuerte compromiso con su comunidad, Mary se dedica a ayudar a sus clientes a encontrar la cobertura adecuada con atención y claridad.",
 
-    "carlos": "A Carlos le apasiona ayudar a sus clientes a encontrar una cobertura accesible y asequible. Conocido por sus consejos honestos y claros, se compromete a simplificar y eliminar el estrés de los seguros.",
+    "carlos": "A Carlos le apasiona ayudar a sus clientes a encontrar una cobertura accesible y asequible.",
 
-    "lina": "Como la incorporación más reciente a My Call Insurance, Lina continúa el legado de empoderar a la comunidad con una guía de seguros clara, confiable y personalizada.",
+    "lina": "Lina continúa el legado de empoderar a la comunidad con una guía de seguros clara y confiable.",
+
+    "maryFull": "Con un profundo compromiso con su comunidad, Mary Bornachera fundó My Call Insurance Agency para ofrecer soluciones de seguros confiables, personalizadas y con corazón.\n\nCon casi quince años de experiencia en el sector, se enorgullece de ayudar a personas, familias y empresas a sentirse seguras con su cobertura, sin importar lo que les depare la vida. Es experta en Medicare, la Ley de Cuidado de Salud Asequible (ACA) y seguros de vida.\n\nEn My Call Insurance, Mary cree en el asesoramiento honesto, las relaciones sólidas y en poner sus necesidades en primer lugar, porque proteger lo que más importa siempre está a una llamada de distancia.",
+
+    "carlosFull": "Carlos Montoya es un profesional de seguros dedicado, con un fuerte enfoque en los planes de la Ley de Cuidado de Salud Asequible (ACA) y soluciones de cobertura médica.\n\nComo cofundador de My Call Insurance Agency, combina su conocimiento del sector con su pasión por ayudar a personas y familias a encontrar opciones de seguro accesibles y asequibles. Carlos es conocido por su enfoque honesto y directo, siempre tomándose el tiempo para explicar la cobertura con claridad.\n\nSu compromiso con la confianza, la transparencia y un servicio excepcional es la base de cada conversación.",
+
+    "linaFull": "Con más de una década de experiencia en finanzas corporativas, Lina aporta un enfoque estratégico y personalizado a My Call Insurance Agency.\n\nSe dedica a preservar y promover el legado familiar mediante un servicio excepcional y una orientación clara y confiable para sus necesidades de seguros. Su pasión es empoderar a la comunidad mediante la educación, ayudando a los clientes a tomar decisiones informadas para sus circunstancias individuales.\n\nLina se compromete a ayudar a los clientes a abordar sus necesidades de seguros con confianza, garantizando el crecimiento continuo de la agencia y el impacto para las generaciones venideras.",
 
     "supportTitle": "Equipo de soporte y servicio",
 
-    "supportDesc": "Nuestro dedicado equipo de soporte está aquí para simplificar su seguro. Ofrecemos orientación clara y comprensiva sobre Medicare, la Ley de Cuidado de Salud Asequible (ACA) y planes comerciales. Considérenos su recurso de confianza para obtener respuestas, información y apoyo continuo."
+    "supportDesc": "Nuestro dedicado equipo de soporte está aquí para simplificar su seguro. Ofrecemos orientación clara y comprensiva sobre Medicare, la Ley de Cuidado de Salud Asequible (ACA) y planes comerciales.",
+
+    "roles": {
+      "founder": "Fundadora / Agente de Seguros Licenciada",
+      "cofounder": "Co-Fundador / Agente de Seguros Licenciado",
+      "managingPartner": "Socia Directora / Agente de Seguros Licenciada",
+      "supportManager": "Gerente de Soporte y Servicio",
+      "supportSpecialist": "Especialista en Soporte y Servicio"
+    },
+    "ReadsMore": "Leer más"
+  },
+  "whyAgent": {
+    "title": "¿Por qué un agente?",
+    "description": "Trabajar con un agente de seguros licenciado ofrece una experiencia personalizada que no se encuentra al contratar un seguro por cuenta propia. Nuestros agentes simplifican el proceso y le ayudan a encontrar la mejor cobertura adaptada a sus necesidades. Su apoyo le ahorra tiempo y le ayuda a evitar errores costosos, garantizando decisiones acertadas para su futuro. Confíe en nuestros agentes para garantizar su tranquilidad y la de sus seres queridos.",
+    "features": {
+      "experience": {
+        "title": "Agentes experimentados y atentos",
+        "text": "Nuestro equipo de profesionales certificados aporta un profundo conocimiento del sector y un compromiso genuino con la protección de sus intereses. Estamos aquí para guiarle con integridad."
+      },
+      "clarity": {
+        "title": "Claridad y confianza",
+        "text": "Creemos que el seguro debe empoderarte, no abrumarte. Te explicamos tus opciones con claridad y honestidad, para que puedas tomar decisiones con confianza."
+      },
+      "service": {
+        "title": "Servicio personalizado",
+        "text": "Trabajamos con usted para diseñar planes de seguro que se ajusten a sus necesidades específicas."
+      },
+      "satisfaction": {
+        "title": "Satisfacción del cliente",
+        "text": "Nuestros clientes están en el centro de todo lo que hacemos, garantizando que reciba asistencia y servicio excepcionales."
+      }
+    },
+    "principles": {
+      "title": "Nuestros Principios Fundamentales",
+      "items": {
+        "social": {
+          "title": "Responsabilidad Social",
+          "text": "Creemos en retribuir a nuestras comunidades y apoyar causas que generen un impacto positivo. Estamos comprometidos con prácticas éticas que benefician tanto a nuestros clientes como a la sociedad en general."
+        },
+        "empathy": {
+          "title": "Empatía",
+          "text": "Escuchamos las necesidades de nuestros clientes con compasión y comprensión, reconociendo que cada situación es única. Nos esforzamos por ofrecer soluciones personalizadas que reflejen sus valores y objetivos."
+        },
+        "service": {
+          "title": "Compromiso con el Servicio",
+          "text": "Nuestros clientes están en el centro de todo lo que hacemos. Nos dedicamos a brindar un servicio, acompañamiento y orientación excepcionales, siempre buscando superar sus expectativas."
+        },
+        "education": {
+          "title": "Educación y Empoderamiento",
+          "text": "Creemos en ayudar a nuestros clientes a tomar decisiones informadas sobre sus necesidades de seguros, brindándoles el conocimiento necesario para proteger a sus familias y su futuro."
+        },
+        "integrity": {
+          "title": "Integridad",
+          "text": "Mantenemos los más altos estándares de honestidad y transparencia en cada interacción. Nuestros clientes pueden confiar en que siempre actuamos en su mejor interés."
+        },
+        "collaboration": {
+          "title": "Colaboración y Trabajo en Equipo",
+          "text": "Creemos en el poder de la colaboración, tanto dentro de nuestro equipo como con nuestros clientes. Fomentamos un entorno inclusivo donde las necesidades se atienden con experiencia colectiva y cuidado."
+        }
+      }
+    }
   }
 }

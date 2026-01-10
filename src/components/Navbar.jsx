@@ -1,7 +1,10 @@
 import { NavLink, Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./LanguageSelector.jsx";
+import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -13,21 +16,6 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  // 🔥 SCROLL PROFESIONAL AL CONTACTO
-  const scrollToContact = () => {
-    setOpen(false);
-
-    setTimeout(() => {
-      const el = document.getElementById("contacto");
-      if (el) {
-        el.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-      }
-    }, 100);
-  };
 
   const links = [
     { to: "/", label: t("navbar.home") },
@@ -61,7 +49,7 @@ export default function Navbar() {
           />
         </Link>
 
-        {/* DESKTOP MENU */}
+        {/* ===== DESKTOP MENU ===== */}
         <div className="hidden md:flex items-center gap-4">
           {links.map((item) => (
             <NavLink
@@ -75,19 +63,66 @@ export default function Navbar() {
             </NavLink>
           ))}
 
+          {/* SERVICIOS */}
+          <HashLink
+            smooth
+            to="/#servicios"
+            className={`${baseLink} ${normalLink}`}
+          >
+            {t("navbar.services")}
+          </HashLink>
+
           <LanguageSelector />
 
-          {/* CONTACT BUTTON */}
-          <button
-            onClick={scrollToContact}
-            className="ml-2 bg-[#02699C] text-white px-5 py-2 rounded-full font-bold shadow-md 
+          {/* ICONOS SOCIALES */}
+          <div className="flex items-center gap-3 ml-2 text-[#02699C]">
+            <a
+              href="https://www.instagram.com/mycallinsurance/?hl=es"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-pink-500 transition hover:scale-110"
+            >
+              <FaInstagram />
+            </a>
+
+            <a
+              href="https://www.facebook.com/MyCallInsurance/?locale=es_LA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-600 transition hover:scale-110"
+            >
+              <FaFacebookF />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/mycallinsurance"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-700 transition hover:scale-110"
+            >
+              <FaLinkedinIn />
+            </a>
+
+            <a
+              href="mailto:info@mycallinsurance.com"
+              className="hover:text-red-500 transition hover:scale-110"
+            >
+              <MdEmail size={18} />
+            </a>
+          </div>
+
+          {/* CONTACTO */}
+          <HashLink
+            smooth
+            to="/#contacto"
+            className="ml-3 bg-[#02699C] text-white px-5 py-2 rounded-full font-bold shadow-md 
               transition-all duration-300 hover:scale-110 hover:-translate-y-1"
           >
             {t("navbar.contact")}
-          </button>
+          </HashLink>
         </div>
 
-        {/* MOBILE MENU BUTTON */}
+        {/* ===== MOBILE BUTTON ===== */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-[#02699C] text-3xl transition-transform hover:scale-110"
@@ -96,7 +131,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* MOBILE MENU */}
+      {/* ===== MOBILE MENU ===== */}
       {open && (
         <div className="md:hidden bg-white shadow-lg border-t border-gray-200">
           <div className="flex flex-col items-center py-6 gap-4">
@@ -117,13 +152,31 @@ export default function Navbar() {
               </NavLink>
             ))}
 
-            {/* CONTACT BUTTON MOBILE */}
-            <button
-              onClick={scrollToContact}
+            <HashLink
+              smooth
+              to="/#servicios"
+              onClick={() => setOpen(false)}
+              className="px-6 py-3 rounded-full font-semibold text-[#02699C] hover:bg-[#02699C]/10"
+            >
+              {t("navbar.services")}
+            </HashLink>
+
+            {/* ICONOS SOCIALES MOBILE */}
+            <div className="flex gap-6 text-2xl text-[#02699C] mt-2">
+              <FaInstagram />
+              <FaFacebookF />
+              <FaLinkedinIn />
+              <MdEmail />
+            </div>
+
+            <HashLink
+              smooth
+              to="/#contacto"
+              onClick={() => setOpen(false)}
               className="bg-[#02699C] text-white px-8 py-3 rounded-full font-bold shadow-md"
             >
               {t("navbar.contact")}
-            </button>
+            </HashLink>
 
             <LanguageSelector />
           </div>
